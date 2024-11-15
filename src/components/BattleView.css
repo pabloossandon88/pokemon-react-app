@@ -1,0 +1,110 @@
+/* src/components/BattleView.css */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.container button{
+    max-width: 80%;
+}
+
+.logo{
+    max-width: 100px;
+}
+
+.title{
+    margin: 0.2em auto;
+    font-size: 0.5em;
+     
+}
+
+.pokemon-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.pokemonOne {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #0074D9; /* Azul para distinguir el primer Pokémon */
+    border-radius: 8px;
+    background-color: rgba(0, 116, 217, 0.1); /* Fondo suave */
+    width: 45%;
+    margin: 1em;
+}
+
+.pokemonTwo {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #FF4136; /* Rojo para distinguir el segundo Pokémon */
+    border-radius: 8px;
+    background-color: rgba(255, 65, 54, 0.1); /* Fondo suave */
+    width: 45%;
+    margin: 1em;
+}
+
+.pokemonOne h2, .pokemonTwo h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.pokemonOne img, .pokemonTwo img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #2ECC40; /* Verde para el botón */
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #01FF70; /* Verde claro en hover */
+}
+
+.battle-log {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #F3F4F6;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.textWin{
+    color: green;
+    font-size: 2em;
+}
+
+.fight {
+    margin-top: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    padding: 0 40px;
+    background: lightblue;
+    border: 3px solid #003060;
+    border-radius: 40px;
+    box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+  }
+
+.fight:hover {
+    background: #003060;
+    color: white;
+    top: 10px;
+    box-shadow: none;
+  }
